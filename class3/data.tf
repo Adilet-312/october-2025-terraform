@@ -1,8 +1,8 @@
 data "aws_vpc" "selected" {
-    filter {
-        name = "tag:Name"
-        values = ["kaizen"]
-    }
+  filter {
+    name = "tag:Name"
+    values = ["kaizen"]
+  }
 }
 
 resource "aws_subnet" "hello" {

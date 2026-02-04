@@ -29,5 +29,5 @@ resource "aws_instance" "example" {
 }
 
 output ec2 {
-    value = aws_instance.example.public.ip
+    value = aws_instance.example
 }
